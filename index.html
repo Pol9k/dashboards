@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="/assets/images/favicon2.png">
+
+        <!-- https://boxicons.com/?query= -->
+        <!--=============== BOXICONS ===============-->
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Dashboard - Onlinemarket</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+          <nav class="nav container">
+            <a href="#" class="nav__logo">
+              <i class='bx bxs-dashboard'></i> Dashboard
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#home" class="nav__link active-link">Home</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#next" class="nav__link">NEXT</a>
+                </li>
+                <!-- <li class="nav__item">
+                  <a href="#products" class="nav__link">Вироби</a>
+                </li> -->
+                <!-- <li class="nav__item">
+                  <a href="#new" class="nav__link">Новинки</a>
+                </li> -->
+              </ul>
+
+              <div class="nav__close" id="nav-close">
+                <i class='bx bx-x'></i>
+              </div>
+            </div>
+            
+            <div class="nav__btns">
+              <!-- Theme change button  -->
+              <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+              <!-- <div class="nav__shop" id="cart-shop">
+                <i class='bx bxs-shopping-bag'></i>
+              </div> -->
+              <i class='bx bx-cog'></i>
+              <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="container1">
+                  <div class="home__container container">
+                    <div class="home__social">
+                      <a href="#!" target="_blank" class="home__social-link">
+                        Telegram
+                      </a>
+                      <a href="#!" target="_blank" class="home__social-link">
+                        Viber
+                      </a>
+                      <a href="#!" target="_blank" class="home__social-link">
+                        WhatsApp
+                      </a>
+                    </div>
+                    <div class="home__box">
+                      <div class="home__data">
+                        <h1 class="home__title">
+                          Dashboard <br>KPI
+                        </h1>
+                        <p class="home__employee">
+                          Сірко Орест
+                        </p>
+                        <span class="home__price">період</span>
+    
+                        <div class="home__btns">
+                          <p class="home__btns-date">
+                            Date - Today
+                          </p>
+                        </div>
+                      </div>
+                      <div class="home__dashboard">
+                        <div class="home__dashboard-box">
+                          <div class="axis x-axis"></div>
+                          <div class="axis y-axis"></div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div> 
+                </div>
+            </section>
+
+
+            <!--==================== NEXT ====================-->
+            <section class="next section container" id="next">
+              <div class="sales-funnel">
+                <div class="sales-funnel--name">
+                  <i class='bx bx-current-location'></i>
+                  <p>Name location</p>
+                </div>
+                <div class="stage">
+                  <div class="data">
+                    <span class="number">457</span>
+                    <span class="description"> ч./д.</span>
+                  </div>
+                  <div class="level level-1"></div>
+                </div>
+                <div class="stage">
+                  <div class="data">
+                    <span class="number">127</span>
+                    <span class="description">Оп.</span>
+                  </div>
+                  <div class="level level-2"></div>
+                </div>
+                <div class="stage">
+                  <div class="data">
+                    <span class="number">15</span>
+                    <span class="description">проект.</span>
+                  </div>
+                  <div class="level level-3"></div>
+                </div>
+                <div class="stage">
+                  <div class="data">
+                    <span class="number">4</span>
+                    <span class="description">Наданих послуг</span>
+                  </div>
+                  <div class="level level-4"></div>
+                </div>
+              </div>
+            </section>
+
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+          <div class="footer__container container grid">
+            <div class="footer__content">
+              <h3 class="footer__title">Наша інформація</h3>
+
+              <ul class="footer__list">
+                <li>62000, Харківська обл.</li>
+                <li>Харків</li>
+                <li>вул.SOME</li>
+              </ul>
+            </div>
+
+            <div class="footer__content">
+              <h3 class="footer__title">Наші контакти</h3>
+
+              <ul class="footer__links">
+                <li>
+                  <a href="#!" class="footer__link">+38 097 780 00 77</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link">з 9:00 по 18:00</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__content">
+              <h3 class="footer__title">Service</h3>
+
+              <ul class="footer__links">
+                <li>
+                  <a href="#home" class="footer__link">Dashboard</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link some_close">ToDoList</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link some_close">KPI</a>
+                </li>
+                <li>
+                  <a href="#!" class="footer__link some_close">Analytics</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer__content">
+              <h3 class="footer__title">Social</h3>
+
+              <ul class="footer__social">
+                <a href="#!" target="_blank" class="footer__social-link">
+                  <i class='bx bxl-telegram'></i>
+                </a>
+                <a href="#!" target="_blank" class="footer__social-link">
+                  <i class='bx bxl-whatsapp' ></i>
+                </a>
+                <a href="#!" target="_blank" class="footer__social-link">
+                  <i class='bx bxl-whatsapp-square' ></i>
+                </a>
+              </ul>
+            </div>
+          </div>
+
+          <span class="footer__copy">&#169; ITcom. All rigths reserved</span>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+          <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+        </a>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
