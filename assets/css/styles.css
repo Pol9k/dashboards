@@ -366,7 +366,29 @@ body.dark-theme{
   top: 0;
   background-color: #038029;
 }
+.home__dashboard-box--block {
+  position: absolute;
+  background: #fff;
+  width: 10rem;
+  height: 6rem;
 
+}
+#block1{
+  left: 2rem;
+  top: 3rem;
+}
+#block2{
+  right: 2rem;
+  top: 3rem;
+}
+#block3{
+  left: 2rem;
+  bottom: 3rem;
+}
+#block4{
+  right: 2rem;
+  bottom: 3rem;
+}
 
 
 .home__title{
